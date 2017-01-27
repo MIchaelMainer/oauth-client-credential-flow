@@ -1,6 +1,6 @@
 {
-    "name": "cbales/authorization-code-flow-example",
-    "description": "Authorization Code Flow Example",
+    "name": "cbales/client-credential-flow-example",
+    "description": "Client Credential Flow Example",
     "license": "MIT",
     "type": "project",
     "autoload": {

@@ -2,7 +2,6 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Microsoft\Graph\Graph;
 
 class LoginController extends Controller 
 {

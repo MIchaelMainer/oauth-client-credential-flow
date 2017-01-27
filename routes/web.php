@@ -15,10 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/data', 'DataController@showUserInfo');
-Route::get('/sendMail', 'DataController@sendMail');
-Route::get('/updateExcel', 'DataController@updateExcel');
-Route::get('/download', 'DataController@downloadItem');
-Route::get('/upload', 'DataController@uploadItem');
-Route::get('/updateProfile', 'DataController@updateProfile');
 Route::get('/login', 'LoginController@login');
-Route::get('/setLogin', 'LoginController@setLogin');
